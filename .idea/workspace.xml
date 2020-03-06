@@ -2,29 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bf1de47-6fe5-4f27-a65f-7efc0615925a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/browser/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser/geckodriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/features/openBrowser.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/stepDefs/openBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/utils/utilities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/qa/cukeRunner/CukeRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/qa/cukeRunner/CukeRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/qa/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/qa/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Opening#20the#20Browser.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/Opening#20the#20Browser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.qa.cukeRunner.CukeRunner.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.qa.cukeRunner.CukeRunner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.qa.cukeRunner.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.qa.cukeRunner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Opening#20the#20Browser.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-Opening#20the#20Browser.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.qa.cukeRunner.CukeRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.qa.cukeRunner.CukeRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/config/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/cukeRunner/CukeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/cukeRunner/CukeRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/utils/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/utils/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/features/openBrowser.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/pages/LoginPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,22 +158,22 @@
       <screen x="0" y="23" width="1680" height="976" />
     </state>
     <state x="578" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.976@0.23.1680.976" timestamp="1583325077772" />
-    <state width="1638" height="263" key="GridCell.Tab.0.bottom" timestamp="1583414383472">
+    <state width="1638" height="263" key="GridCell.Tab.0.bottom" timestamp="1583485418616">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
-    <state width="1638" height="263" key="GridCell.Tab.0.bottom/0.23.1680.976@0.23.1680.976" timestamp="1583414383472" />
-    <state width="1638" height="263" key="GridCell.Tab.0.center" timestamp="1583414383471">
+    <state width="1638" height="263" key="GridCell.Tab.0.bottom/0.23.1680.976@0.23.1680.976" timestamp="1583485418616" />
+    <state width="1638" height="263" key="GridCell.Tab.0.center" timestamp="1583485418615">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
-    <state width="1638" height="263" key="GridCell.Tab.0.center/0.23.1680.976@0.23.1680.976" timestamp="1583414383471" />
-    <state width="1638" height="263" key="GridCell.Tab.0.left" timestamp="1583414383470">
+    <state width="1638" height="263" key="GridCell.Tab.0.center/0.23.1680.976@0.23.1680.976" timestamp="1583485418615" />
+    <state width="1638" height="263" key="GridCell.Tab.0.left" timestamp="1583485418615">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
-    <state width="1638" height="263" key="GridCell.Tab.0.left/0.23.1680.976@0.23.1680.976" timestamp="1583414383470" />
-    <state width="1638" height="263" key="GridCell.Tab.0.right" timestamp="1583414383471">
+    <state width="1638" height="263" key="GridCell.Tab.0.left/0.23.1680.976@0.23.1680.976" timestamp="1583485418615" />
+    <state width="1638" height="263" key="GridCell.Tab.0.right" timestamp="1583485418615">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
-    <state width="1638" height="263" key="GridCell.Tab.0.right/0.23.1680.976@0.23.1680.976" timestamp="1583414383471" />
+    <state width="1638" height="263" key="GridCell.Tab.0.right/0.23.1680.976@0.23.1680.976" timestamp="1583485418615" />
     <state x="341" y="150" key="SettingsEditor" timestamp="1583412783695">
       <screen x="0" y="23" width="1680" height="976" />
     </state>

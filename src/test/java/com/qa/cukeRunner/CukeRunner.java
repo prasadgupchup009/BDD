@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/java/com/qa/features/openBrowser.feature",
+        features = "src/test/java/com/qa/features",
         glue={"com/qa/stepDefs"},
         plugin = { "pretty", "html:target/cucumber-reports" }
 )

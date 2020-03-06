@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Opening the Browser" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-05T13:19:44" hostname="Prasads-MacBook-Pro.local" time="115.784">
+<testsuite name="Opening the Browser" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-06T09:03:39" hostname="Prasads-MacBook-Pro.local" time="6.684">
   <properties/>
-  <testcase name="Opening the Browser" classname="Opening the Browser" time="115.784"/>
+  <testcase name="Opening the Browser" classname="Opening the Browser" time="6.684"/>
   <system-out><![CDATA[
-Scenario: Opening the Browser ?[90m# src/test/java/com/qa/features/openBrowser.feature:6?[0m
+Scenario: Opening the Browser ?[90m# src/test/java/com/qa/features/login.feature:6?[0m
   ?[32mGiven ?[0m?[32mThe browser is open?[0m   ?[90m# com.qa.stepDefs.openBrowser.theBrowserIsOpen()?[0m
   ?[32mWhen ?[0m?[32mUser logs in?[0m           ?[90m# com.qa.stepDefs.openBrowser.userLogsIn()?[0m
 User See Login page
   ?[32mThen ?[0m?[32muser sees login Page?[0m   ?[90m# com.qa.stepDefs.openBrowser.userSeesLoginPage()?[0m
   ?[32mAnd ?[0m?[32mBrowser is closed?[0m       ?[90m# com.qa.stepDefs.openBrowser.browserIsClosed()?[0m
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 17002
+  <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 21299
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Mar 05, 2020 6:49:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 06, 2020 2:33:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1583414387.307][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583414387.408][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583414387.591][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583414387.692][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583414387.836][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583414387.937][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583414388.039][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583414388.141][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583414388.244][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583414500.166][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583414500.267][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583485422.343][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583485422.467][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583485422.569][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583485422.730][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583485422.832][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583485422.962][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583485423.065][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583485423.167][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583485423.270][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583485423.372][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583485426.213][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583485426.314][SEVERE]: Timed out receiving message from renderer: 0.100
 ]]></system-err>
 </testsuite>

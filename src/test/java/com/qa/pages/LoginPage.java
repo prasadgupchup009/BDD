@@ -1,13 +1,13 @@
 package com.qa.pages;
 
 import com.qa.utils.ConfigReader;
+import com.qa.utils.utilities;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginPage extends ConfigReader {
 
+    utilities util = new utilities();
     private By userName = By.name("userName");
 
     private By passWord = By.name("password");
@@ -19,11 +19,8 @@ public class LoginPage extends ConfigReader {
     }
 
     public void logIn (String un , String password) {
-        WebDriverWait wait = new WebDriverWait(driver, 5);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("userName")));
-        driver.findElement(userName).sendKeys(un);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("password")));
-        driver.findElement(passWord).sendKeys(password);
-        driver.findElement(loginBtn).click();
+          util.enterText(userName,un);
+          util.enterText(passWord,password);
+          util.click(loginBtn);
     }
 }

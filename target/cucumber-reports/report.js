@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/java/com/qa/features/openBrowser.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/java/com/qa/features/login.feature");
 formatter.feature({
   "name": "Opening the Browser",
   "description": "  As A User\n  I want to open the browser\n  So That I can navigate to flight booking site",
