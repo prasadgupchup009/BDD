@@ -14,7 +14,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "com.qa.stepDefs.openBrowser.theBrowserIsOpen()"
+  "location": "com.qa.stepDefs.loginPageStefDef.theBrowserIsOpen()"
 });
 formatter.result({
   "status": "passed"
@@ -24,7 +24,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "com.qa.stepDefs.openBrowser.userLogsIn()"
+  "location": "com.qa.stepDefs.loginPageStefDef.userLogsIn()"
 });
 formatter.result({
   "status": "passed"
@@ -34,7 +34,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "com.qa.stepDefs.openBrowser.userSeesLoginPage()"
+  "location": "com.qa.stepDefs.loginPageStefDef.userSeesLoginPage()"
 });
 formatter.result({
   "status": "passed"
@@ -44,7 +44,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "com.qa.stepDefs.openBrowser.browserIsClosed()"
+  "location": "com.qa.stepDefs.loginPageStefDef.browserIsClosed()"
 });
 formatter.result({
   "status": "passed"

@@ -35,6 +35,7 @@ public class utilities extends ConfigReader{
 
     }
     public  void verifyText (By element , String message) {
+        wait(element);
         Assert.assertTrue(driver.findElement(element).getText().equals(message));
     }
 }
