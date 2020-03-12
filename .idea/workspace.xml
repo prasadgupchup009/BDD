@@ -2,32 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bf1de47-6fe5-4f27-a65f-7efc0615925a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/features/additionNumbers.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/features/substraction.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/features/substraction_withMapDataTable.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/stepDefs/AddNumbersStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/stepDefs/substraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/stepDefs/substraction_withMapDataTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/transform/DataTableConfigurator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/transform/Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/utils/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/qa/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/qa/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/qa/stepDefs/openBrowser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/qa/utils/utilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/qa/utils/utilities.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Opening#20the#20Browser.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/Opening#20the#20Browser.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.qa.cukeRunner.CukeRunner.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.qa.cukeRunner.CukeRunner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.qa.cukeRunner.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.qa.cukeRunner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Opening#20the#20Browser.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-Opening#20the#20Browser.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.qa.cukeRunner.CukeRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.qa.cukeRunner.CukeRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/stepDefs/openBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/stepDefs/loginPageStefDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/qa/cukeRunner/CukeRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/qa/pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/qa/stepDefs/loginPageStefDef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/qa/utils/ConfigReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/qa/utils/utilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Opening#20the#20Browser.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.qa.cukeRunner.CukeRunner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.qa.cukeRunner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Opening#20the#20Browser.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.qa.cukeRunner.CukeRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/config/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/cukeRunner/CukeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/cukeRunner/CukeRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/utils/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/utils/ConfigReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/utils/utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/utils/utilities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/report.js" afterDir="false" />
     </list>
@@ -82,7 +98,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/qa/features" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -90,17 +106,19 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/qa/features" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/test/java/com/qa/" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qa.stepDefs" />
       <recent name="com.qa.utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/com/qa/stepDefs" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CukeRunner">
+  <component name="RunManager" selected="Gradle.IdeaProjects [dependencies]">
     <configuration name="CukeRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -142,8 +160,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CukeRunner" />
         <item itemvalue="Gradle.IdeaProjects [dependencies]" />
+        <item itemvalue="Gradle.CukeRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -165,26 +183,38 @@
       <screen x="0" y="23" width="1680" height="976" />
     </state>
     <state x="440" y="176" key="#Project_Structure/0.23.1680.976@0.23.1680.976" timestamp="1583325089030" />
+    <state x="558" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583929318538">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="558" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.976@0.23.1680.976" timestamp="1583929318538" />
+    <state x="653" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1583930215990">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="653" y="227" key="#com.intellij.ide.util.MemberChooser/0.23.1680.976@0.23.1680.976" timestamp="1583930215990" />
     <state x="578" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583325077772">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
     <state x="578" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.976@0.23.1680.976" timestamp="1583325077772" />
-    <state width="1638" height="263" key="GridCell.Tab.0.bottom" timestamp="1583746867406">
+    <state width="1638" height="330" key="GridCell.Tab.0.bottom" timestamp="1584019402566">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
-    <state width="1638" height="263" key="GridCell.Tab.0.bottom/0.23.1680.976@0.23.1680.976" timestamp="1583746867406" />
-    <state width="1638" height="263" key="GridCell.Tab.0.center" timestamp="1583746867405">
+    <state width="1638" height="330" key="GridCell.Tab.0.bottom/0.23.1680.976@0.23.1680.976" timestamp="1584019402566" />
+    <state width="1878" height="606" key="GridCell.Tab.0.bottom/0.23.1920.1006@0.23.1920.1006" timestamp="1584007191787" />
+    <state width="1638" height="330" key="GridCell.Tab.0.center" timestamp="1584019402565">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
-    <state width="1638" height="263" key="GridCell.Tab.0.center/0.23.1680.976@0.23.1680.976" timestamp="1583746867405" />
-    <state width="1638" height="263" key="GridCell.Tab.0.left" timestamp="1583746867404">
+    <state width="1638" height="330" key="GridCell.Tab.0.center/0.23.1680.976@0.23.1680.976" timestamp="1584019402565" />
+    <state width="1878" height="606" key="GridCell.Tab.0.center/0.23.1920.1006@0.23.1920.1006" timestamp="1584007191786" />
+    <state width="1638" height="330" key="GridCell.Tab.0.left" timestamp="1584019402565">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
-    <state width="1638" height="263" key="GridCell.Tab.0.left/0.23.1680.976@0.23.1680.976" timestamp="1583746867404" />
-    <state width="1638" height="263" key="GridCell.Tab.0.right" timestamp="1583746867405">
+    <state width="1638" height="330" key="GridCell.Tab.0.left/0.23.1680.976@0.23.1680.976" timestamp="1584019402565" />
+    <state width="1878" height="606" key="GridCell.Tab.0.left/0.23.1920.1006@0.23.1920.1006" timestamp="1584007191786" />
+    <state width="1638" height="330" key="GridCell.Tab.0.right" timestamp="1584019402565">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
-    <state width="1638" height="263" key="GridCell.Tab.0.right/0.23.1680.976@0.23.1680.976" timestamp="1583746867405" />
+    <state width="1638" height="330" key="GridCell.Tab.0.right/0.23.1680.976@0.23.1680.976" timestamp="1584019402565" />
+    <state width="1878" height="606" key="GridCell.Tab.0.right/0.23.1920.1006@0.23.1920.1006" timestamp="1584007191786" />
     <state x="341" y="150" key="SettingsEditor" timestamp="1583490323379">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
@@ -197,6 +227,10 @@
       <screen x="0" y="23" width="1680" height="976" />
     </state>
     <state x="597" y="439" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.23.1680.976@0.23.1680.976" timestamp="1583412860006" />
+    <state x="505" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1583920744577">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="505" y="238" width="670" height="676" key="search.everywhere.popup/0.23.1680.976@0.23.1680.976" timestamp="1583920744577" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -205,6 +239,11 @@
           <url>file://$PROJECT_DIR$/build.gradle</url>
           <line>13</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/qa/cukeRunner/CukeRunner.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

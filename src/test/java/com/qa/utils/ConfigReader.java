@@ -1,7 +1,6 @@
 package com.qa.utils;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -38,13 +37,8 @@ public class ConfigReader {
         driver.get(prop.getProperty("url"));
     }
 
-    public static void switchFrames(WebElement loacator) {
-       driver.switchTo().frame(loacator);
-    }
 
-//    public static String getReportConfigPath(){
-//        String reportConfigPath = prop.getProperty("reportConfigPath");
-//        if(reportConfigPath!= null) return reportConfigPath;
-//        else throw new RuntimeException("Report Config Path not specified in the Configuration.properties file for the Key:reportConfigPath");
-//    }
+    public static void closeBrowse() {
+        driver.quit();
+    }
 }

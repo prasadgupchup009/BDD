@@ -8,3 +8,4 @@ Feature: Opening the Browser
     When User logs in
     Then user sees login Page
     And Browser is closed
+
