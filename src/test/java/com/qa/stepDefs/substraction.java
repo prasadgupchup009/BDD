@@ -1,9 +1,10 @@
 package com.qa.stepDefs;
 
-import io.cucumber.datatable.DataTable;
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
+
+import cucumber.api.DataTable;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 
 import java.util.List;
 
@@ -13,7 +14,7 @@ public class substraction {
     int c;
     @Given("I have list")
         public void i_have_list(DataTable dataTable) {
-        List<String> list = dataTable.asList();
+        List<String> list = dataTable.asList(String.class);
         a= Integer.parseInt(list.get(0));
         b= Integer.parseInt(list.get(1));
 

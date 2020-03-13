@@ -1,9 +1,10 @@
 package com.qa.stepDefs;
 
-import io.cucumber.datatable.DataTable;
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
+
+import cucumber.api.DataTable;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 
 import java.util.List;
 import java.util.Map;
@@ -11,9 +12,9 @@ import java.util.Map;
 public class substraction_withMapDataTable {
     int a,b,c;
 
-    @Given("I have list below")
+    @Given("I have Numbers below")
     public void i_have_list_below(DataTable dataTable) {
-        List<Map<String, String>> list = dataTable.asMaps();
+        List<Map<String, String>> list = dataTable.asMaps(String.class , String.class);
         a = Integer.parseInt(list.get(0).get("Number1"));
         b=Integer.parseInt(list.get(0).get("Number2"));
         }

@@ -1,16 +1,10 @@
 package com.qa.utils;
 
-import io.cucumber.java.Scenario;
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.io.File;
 
 public class utilities extends ConfigReader{
 
@@ -45,18 +39,4 @@ public class utilities extends ConfigReader{
         Assert.assertTrue(driver.findElement(element).getText().equals(message));
     }
 
-    public static void takeSnapShot() throws Exception{
-        Scenario scenario = null;
-        String location = "target/Screenshot";  //location for images
-        String methodName = scenario.getName().toString();
-
-       try {
-           TakesScreenshot scrShot = ((TakesScreenshot) driver);
-           File SrcFile = scrShot.getScreenshotAs(OutputType.FILE);
-           FileUtils.copyFile(SrcFile, new File(location + methodName + "_" + ".png"));
-       } catch (Exception e) {
-           e.printStackTrace();
-       }
-
-    }
 }
